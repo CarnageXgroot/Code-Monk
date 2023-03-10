@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Montserrat:ital,wght@0,500;0,600;1,500&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+.container {
+    background-color: black;
+    height: 109vh;
+    width: 100vw;
+}
+
+#navbar {
+    display: flex;
+}
+
+.img1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 76px;
+    position: absolute;
+    height: 23px;
+}
+
+#navbar h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 46px;
+    font-size: 1.5rem;
+    padding-left: 68px;
+}
+
+#navbar ul {
+    display: flex;
+    color: white;
+}
+
+#navbar ul li {
+    padding: 34px;
+    list-style: none;
+    position: relative;
+    left: 98px;
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li:hover {
+    background-color: #121317;
+    border: 2px solid white;
+    border-radius: 9px;
+    height: 18px;
+    width: 40px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 45px 22px;
+}
+
+.username {
+    color: white;
+    position: relative;
+    left: 581px;
+    font-size: 1.2rem;
+    padding: 56px;
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.username img {
+    display: flex;
+    position: absolute;
+    padding: 55px 230px;
+    right: 238px;
+    ;
+}
+
+.container2 ul li {
+    color: rgb(235, 223, 223);
+    padding: 17px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 ul {
+    margin: 90px 0px;
+    padding: 72px;
+    position: relative;
+    bottom: 121px;
+}
+
+.container2 ul li a:hover {
+    background: linear-gradient(273.78deg, #7A9EEF 8.84%, #B8479F 47.63%, #F495FB 102.85%);
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.box {
+    background-color: #121317;
+    width: 1148px;
+    height: 615px;
+    color: white;
+    margin-left: 301px;
+    position: relative;
+    bottom: 895px;
+    border-radius: 28px;
+}
+
+.footer {
+    position: relative;
+    color: #FFFFFF;
+    left: 86px;
+    bottom: 9px;
+    padding: 55px 10px;
+}
+
+.button a {
+    text-decoration: none;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+    padding: 8px 8px;
+}
+
+.button:hover {
+    background: #573b8a;
+    border-radius: 10px;
+    /* padding: 8px 8px; */
+    box-shadow: 2px 2px 2px #FFFFFF;
+}
